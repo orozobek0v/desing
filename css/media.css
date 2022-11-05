@@ -2,6 +2,9 @@
   body {
     width: 375px;
   }
+  #header {
+    width: 375px;
+  }
   #header > nav {
     display: none;
   }
@@ -33,6 +36,9 @@
   #skills {
     width: 375px;
   }
+  .skills__photo--block {
+    width: 375px;
+  }
   #about > p {
     width: 335px;
   }
@@ -51,6 +57,12 @@
     height: 70vh;
   }
   .text__btn {
-    width: 325px;
+    width: 255px;
+  }
+  section,
+  main,
+  header,
+  footer {
+    width: 375px;
   }
 }
