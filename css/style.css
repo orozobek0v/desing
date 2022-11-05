@@ -1,0 +1,228 @@
+
+#header {
+  width: 1140px;
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+}
+.header__nav {
+  width: 1140px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.header__nav--items {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.header__nav--items:hover {
+  color: #000;
+}
+.header__nav--items:active {
+  color: red;
+}
+#hero {
+  padding-top: 100px;
+}
+#hero > img {
+  width: 100%;
+}
+.hero__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__denis {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 47px;
+  color: #070707;
+  width: 123px;
+}
+.hero__description {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.hero__languages {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+.hero__languages > span:hover {
+  color: #000;
+}
+#about {
+  margin-top: 100px;
+  background: #f6f6f6;
+  height: 300px;
+  padding-top: 120px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about__theme {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.about > p {
+  width: 38%;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+#skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 90px;
+}
+.skills__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  color: #070707;
+}
+.skills__subtitle {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  color: #070707;
+  margin-bottom: 80px;
+}
+.skills__photo--block {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__text {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 14px;
+  color: #828282;
+  margin: 20px 0;
+}
+.skills__texts {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 14px;
+  color: #828282;
+  margin: 30px 0;
+}
+.skills__stars > img {
+  margin: 0 5px;
+}
+
+#portfolio > img {
+  margin: 50px 0;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.portfolio > img {
+  width: 100%;
+}
+.portfolio > h1 {
+  margin-top: 100px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+}
+.portfolio > a {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+
+#reebok > img {
+  background: #f6f6f6;
+  margin: 100px 0;
+  width: 100%;
+  height: 100vh;
+}
+#reebok > p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+#braun > img {
+  margin: 100px 0;
+  width: 100%;
+}
+#braun > p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__text > h1,
+p,
+button {
+  margin: 20px 0;
+}
+.text__title {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.text__desk {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  color: #070707;
+}
+.text__btn {
+  width: 180px;
+  height: 40px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #070707;
+  border-radius: 20px;
+}
+.text__btn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.text__btn:active {
+  background: rgb(236, 160, 160);
+  color: blue;
+}
+.footer__icons {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footer__description {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+}
