@@ -1,0 +1,56 @@
+@media screen and (min-width: 375px) and (max-width: 1138px) {
+  body {
+    width: 375px;
+  }
+  #header > nav {
+    display: none;
+  }
+  #hero {
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__block {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .hero__languages {
+    display: none;
+  }
+
+  .hero__block > img {
+    width: 375px;
+    height: 470px;
+  }
+
+  #about {
+    margin-top: 0;
+    padding-top: 20px;
+    height: 550px;
+    width: 375px;
+  }
+  #slills {
+    width: 375px;
+  }
+  #about > p {
+    width: 335px;
+  }
+  .skills__photo--block {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .photo__block--items {
+    margin-top: 40px;
+  }
+  .portfolio > img {
+    width: 375px;
+  }
+  #reebok {
+    width: 375px;
+    height: 70vh;
+  }
+  .text__btn {
+    width: 325px;
+  }
+}
